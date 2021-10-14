@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding and Problem Solving</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<h1> Steps on how to make guacamole </h1>
+		<img id="guacamole" src="img/guac.jpg"/>
+
+<div class="guacamole-list">
+	<dl>
+		<dt>Buy the necessary ingredients</dt>
+			<p></p>
+			<li>Avocados</li>
+			<li>Limes</li>
+			<li>Cilantro</li>
+			<li>Tomatoes</li>
+			<li>Jalapeños</li>
+			<p></p>
+
+		<dt>Prepare ingredients</dt>
+			<p></p>
+			<li>Open and pit your avocados</li>
+			<li>Dice tomatoes and jalapeños and put in a 	bowl to the side</li>
+			<li>Cut limes in half for easy squeezing</li>
+			<li>Separate cilantro  leaves from stems</li>
+			<p></p>
+
+		<dt>Mix ingredients in a bowl</dt>
+			<p></p>
+			<li>Mash avocados in the bowl</li>
+			<li>Add salt to the bowl</li>
+			<li>Squeeze lime juice into bowl</li>
+			<li>Add the diced tomatoes to the bowl</li>
+			<li>Add diced jalapeños to the bowl</li>
+			<li>Add cilantro leaves to the bowl</li>
+			<p></p>
+
+		<dt>Mix ingredients together until you have reach your desired consistency for guacamole</dt>
+			<p></p>
+				<li>We recommend smooth with slight chunkiness but go wild!</li>
+				<p></p>
+
+		<dt>Serve and enjoy as you like!</dt>
+	</dl>
+</div>
+<h3> Outline/Pseudocode for everyday task:</h3>
+<pre><code>
+// Outline/Pseudocode for everyday task:
+// Making guacamole:
+	// Buy the necessary ingredients
+			// Buy avocados
+			// Buy limes
+			// Buy cilantro
+			// Buy tomatoes
+			// Buy jalapeños
+			// Buy salt
+	// Prepare ingredients
+			// Dice tomatoes and jalapeños and put in a bowl to the side
+			// Cut limes in half for easy squeezing
+			// Separate cilantro  leaves from stems
+	// Mash avocados in bowl
+	// Add the salt, lime, diced tomatoes, diced jalapeños, and cilantro to the bowl
+	// Mix ingredients together until you have reach your desired consistency for guacamole
+			// We recommend smooth with slight chunkiness but go wild!
+	// Serve and enjoy as you like!
+</pre></code>
+</div>
+</body>
+<body>
+<h3> Outline/Pseudocode for computer task:</h3>
+<pre><code>
+	// Outline/Pseudocode for a computer task:
+	// Connect-Four
+		// Create a 2D array of a grid with 6 equal rows 7 equal columns with continuous memory allocation
+				// Print the 42-block grid to screen
+		// Create a method for determining if blocks are full or empty
+				// Start with all grid blocks as empty
+		// Create player pieces, circle and cross, and start both pieces as free to fill any blocks
+		// Mark all blocks with highest vertical positioning as 1,2,3,4,5,6,7 from left to right
+		// Ask P1 to choose his column number
+				// Get only column number from P1 since the row will always correspond to a particular column
+		// Make a cross appear at the vertically lowest empty block in the column chosen and set that block to full
+		// Check if P1 won or if game ended:
+				// if yes, clear screen and print to screen, P1 wins
+				// if not, continue
+		// Set the block filled by P1 to full and the one above it to empty
+		// Ask P2 to choose his column number
+		// Make a circle appear at at the vertically lowest empty block in the column chosen and set that block to full and the one above it to empty
+		// Check if P2 won or if game ended:
+				// if yes, clear screen and print to screen, P2 wins
+				// if not, continue
+		// Repeat this procedure in loops
+		// Create a method to check if a player wins:
+				// For the whole 2D array, starting with bottom left corner, select all
+				blocks filled with crosses one-by-one and see if it has 3 continuous crosses
+				above or below or to its left or right or diagonally upward left or right or
+				diagonally below left or right, if yes, then announce P1 as Winner
+				// Repeat the same procedure for the circles, if yes, then announce P2 as Winner
+				// If all blocks are set to full and no player has won, then clear screen,
+				and print to screen that the match has ended in a draw
+		// When the game ends, ask user if he wants to play again as a yes or no question:
+		start again if yes and terminate game if no
+</pre></code>
+
+	<h2> Challenge </h2>
+		<p> The challenge of this lab was to pseudocode two tasks, one being an everyday task that students may not be familiar with and the other being a pseudocode for a computer task. For this lab, we decided our every task to be making guacamole and the computer task is creating and playing a Connect-Four game.</p>
+	<h2> Problems </h2>
+		<p> Some problems that we encountered in this lab were figuring out what Javascript was and did. I might've missed it in the lecture or since I am new to coding, I didn't have a clear understanding on what it was. After Pascual helped explain it to me, I was able to understand the purpose of it, which is to help with Pseudocoding.</p>
+	<h2> Results </h2>
+		<p> Our results for this lab were successful. We were able to create a pseudocode for both the Connect-Four game and making guacamole. The langugage for the two were drastically different, but this is because one of them is meant for people to read and the other is meant to be read, and then convereted into code. We successfully added our pseudocode to both our Javascript file and within our .html file.</p>
 
 </body>
 </html>

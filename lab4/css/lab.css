@@ -1,0 +1,16 @@
+body {
+  background-color: lightgreen;
+}
+
+#guacamole {
+  width:500px;
+}
+
+ul.a{
+  list-style-type: circle;
+}
+
+dt {
+  font-weight: bolder;
+  font-size: 20px;
+}
