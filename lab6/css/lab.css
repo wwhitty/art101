@@ -1,0 +1,21 @@
+#tesla {
+  width:500px;
+  align-self: center;
+}
+body {
+  background-color: gold;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  margin-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 20px;
+}
