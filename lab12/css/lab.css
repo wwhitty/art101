@@ -1,0 +1,51 @@
+h1 {
+  border-style: double;
+  border-width: medium;
+  margin: 25px 50px 25px 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+h2 {
+  text-decoration: underline;
+  font-family: monospace;
+  text-align: center;
+  font-size: 32px;
+}
+
+p{
+  font-family: monospace;
+  text-align: center;
+  font-size: 24px;
+}
+
+div.script {
+  font-family: monospace;
+  text-align: center;
+}
+
+img {
+  width: 600px;
+  height: 250px;
+  margin: 25px 20px 75px 50px;
+}
+
+script {
+  font-family: monospace;
+  text-align: center;
+  font-size: 24px;
+}
+
+#content {
+  width: 1190px;
+  min-height: 30px;
+  padding: 40px;
+  margin: 40px;
+  border: solid 20px navy;
+  background-color: gold;
+}
+
+#my-button {
+  text-align: center;
+}
