@@ -1,0 +1,87 @@
+h1 {
+  border-style: double;
+  border-width: medium;
+  margin: 25px 50px 25px 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+h2 {
+  text-decoration: underline;
+  font-family: monospace;
+  text-align: center;
+  font-size: 32px;
+}
+
+p{
+  font-family: monospace;
+  text-align: center;
+  font-size: 24px;
+}
+
+div.script {
+  font-family: monospace;
+  text-align: center;
+}
+
+script {
+  font-family: monospace;
+  text-align: center;
+  font-size: 24px;
+}
+
+#content {
+  width: 1190px;
+  min-height: 30px;
+  padding: 40px;
+  margin: 40px;
+  border: solid 20px navy;
+  background-color: gold;
+}
+
+#my-button {
+  text-align: center;
+}
+
+input[type="number"] {
+    width: 40px;
+}
+input[type="text"] {
+    width: 100px;
+}
+
+input#max {
+    width: 60px;
+}
+
+table {
+    padding: 20px;
+}
+
+input, button {
+    font-size: 90%;
+}
+
+div#input, div#output {
+    border: solid 1px #ccc;
+    padding: 20px;
+    background-color: rgba(205, 255, 255, 0.5);
+}
+
+/* this is to make the paragraphs in the output closer together */
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.cols {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+}
+
+#image {
+  width: 500px;
+  text-align:center; 
+}
